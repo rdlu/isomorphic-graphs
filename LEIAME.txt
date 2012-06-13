@@ -1,0 +1,16 @@
+Necessita do interpretador ruby instalado no máquina
+
+Ruby para windows: http://rubyinstaller.org
+! marcar a opção de incluir o ruby no PATH
+
+Ubuntu Linux (11.04 ou superior): sudo apt-get install ruby
+
+ArchLinux: pacman -S ruby
+
+MacOS X: brew install ruby
+!requisito: gerenciador de pacotes homebrew http://mxcl.github.com/homebrew/
+
+Para rodar:
+ruby main.rb arquivo1 arquivo2 [all]
+
+O parametro "all" informa que se quer gerar todas as possibilidades, sem parar na primeira

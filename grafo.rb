@@ -1,3 +1,4 @@
+require "set"
 class Grafo
   attr_accessor :nodeGrades, :adjacencyTable, :gradeSet, :size, :maxGrade
   def initialize nodeGrades, adjacencyTable, gradeSet, matrixSize, maxGrade
